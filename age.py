@@ -77,3 +77,4 @@ print(mae)
 output = pd.DataFrame({'PassengerId' : test_data.PassengerId, 'Survived' : Predictions})
 output.to_csv('Submission_titanic_2.csv', index=False)
 print("Your submission was successfully saved!")
+ 
