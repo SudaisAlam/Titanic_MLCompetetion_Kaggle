@@ -7,12 +7,12 @@ from sklearn.metrics import mean_absolute_error
 from sklearn.model_selection import train_test_split
 from sklearn.impute import SimpleImputer
 
-address = '/Users/sudaisalam/Downloads/titanic/train.csv'
+address = 'train.csv'
 
 Data = pd.read_csv(address)
 
 y = Data.Survived
-features = ['Pclass', 'Sex', 'Age', 'SibSp', 'Parch', 'Ticket', 'Fare', 'Embarked']
+features = ['Pclass', 'Sex', 'Age', 'SibSp', 'Fare', 'Embarked']
 X = Data[features]
 
 num_cols = [num for num in X.columns if X[num].dtype in ['int64', 'float64']]
