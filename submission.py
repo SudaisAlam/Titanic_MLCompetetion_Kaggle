@@ -8,8 +8,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import OrdinalEncoder
 from sklearn.impute import SimpleImputer
 
-add = '/Users/sudaisalam/Downloads/titanic/train.csv'
-add2 = '/Users/sudaisalam/Downloads/titanic/test.csv'
+add = 'train.csv'
+add2 = 'test.csv'
 Data = pd.read_csv(add)
 test_data = pd.read_csv(add2)
 
