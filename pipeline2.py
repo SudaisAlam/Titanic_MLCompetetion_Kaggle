@@ -8,8 +8,8 @@ from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.impute import SimpleImputer
 
-address = '/Users/sudaisalam/Downloads/titanic/train.csv'
-address2 = '/Users/sudaisalam/Downloads/titanic/test.csv'
+address = 'train.csv'
+address2 = 'test.csv'
 Data = pd.read_csv(address)
 Test_data = pd.read_csv(address2)
 
