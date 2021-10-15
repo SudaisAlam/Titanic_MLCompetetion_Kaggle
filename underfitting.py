@@ -4,7 +4,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error
 from sklearn.model_selection import train_test_split
 from sklearn.impute import SimpleImputer
-address = '/Users/sudaisalam/Downloads/titanic/train.csv'
+address = 'train.csv'
 
 Data = pd.read_csv(address)
 
