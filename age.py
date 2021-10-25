@@ -7,6 +7,7 @@ from sklearn.metrics import mean_absolute_error
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import OrdinalEncoder
 from sklearn.impute import SimpleImputer
+from sklearn.tree import DecisionTreeRegressor
 
 add_train = 'train.csv'
 add_test = 'test.csv'
