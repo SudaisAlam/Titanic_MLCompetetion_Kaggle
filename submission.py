@@ -56,6 +56,7 @@ model.fit(X_train2, y_train)
 preds = model.predict(X_test1)
 A = np.around(preds)
 predictions = A.astype(int)
+
 output = pd.DataFrame({'PassengerId' : test_data.PassengerId, 'Survived' : predictions})
 output.to_csv('Submission.csv', index=False)
 print("Your submission was successfully saved!")
